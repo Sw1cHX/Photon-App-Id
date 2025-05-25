@@ -1,42 +1,45 @@
-# 🔌 Photon App ID Setup Guide
+# 🕹️ How to Get and Use Your Photon App ID
 
-This guide shows you how to get your **Photon App ID** and where to paste it in the game.
-
----
-
-## 1️⃣ Go to the Photon Dashboard
-
-Visit the [Photon Engine Dashboard](https://dashboard.photonengine.com) and log in.
-
-![Photon Dashboard](images/pic1.jpeg)
+This game uses **Photon PUN** for online multiplayer. To play, you **must enter your own Photon App ID** into the input field inside the game.
 
 ---
 
-## 2️⃣ Create a New Application
+## 🔑 What’s a Photon App ID?
 
-Click on **"Create a New App"** and fill in the required info. Choose **Photon PUN** as the SDK type.
-
-![Create App](images/pic2.jpeg)
+A **Photon App ID** is like a login key that lets your game connect to Photon’s multiplayer servers. It’s free and takes just 1 minute to get.
 
 ---
 
-## 3️⃣ Copy Your App ID
+## 🚀 How to Get Your Photon App ID
 
-Once your app is created, you’ll see your **App ID** in the dashboard.
-
-![Copy App ID](images/pic3.jpeg)
-
----
-
-## 4️⃣ Paste It Into the Game
-
-Now, launch the game and paste your **App ID** into the input field shown below. This connects you to Photon’s servers.
-
-![Paste App ID in Game](images/pic4.jpeg)
+1. Go to [https://dashboard.photonengine.com](https://dashboard.photonengine.com)
+2. **Create an account** or **log in**
+3. Click **"Create a New App"**
+4. Fill this out:
+   - **Photon Type**: `Photon PUN`
+   - **App Name**: (Name it anything you want, like `MyGame`)
+5. Click **Create**
+6. You’ll now see your **App ID** – it’s a long string of letters and numbers  
+   🔗 **COPY IT**
 
 ---
 
-## ✅ Done!
+## 🎮 How to Use It In-Game
 
-You're now ready to use multiplayer features in the game powered by Photon PUN!
+1. Launch the game
+2. In the main menu or settings, you’ll see a text input labeled something like:  
+   **“Enter Photon App ID”**
+3. Paste your App ID into that field
+4. Hit **Connect**, **Save**, or **Play** (whatever is relevant)
 
+That’s it — you’re now ready to play multiplayer!
+
+---
+
+## ❓ Why Do I Need My Own App ID?
+
+- Photon’s free plan gives you **20 concurrent players** per App ID
+- If everyone uses the same shared ID, it will max out and you won't be able to connect
+- Your own ID = stable and guaranteed connection
+
+---
